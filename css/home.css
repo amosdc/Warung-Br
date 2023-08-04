@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-weight: 100;
+}
+
+span{
+  font-weight: 600;
+}
+
+/* navbar */
+
+/* nav.navbar{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} */
+
+a.navbar-brand{
+  margin-left: 10rem;
+}
+
+ul li a{
+  margin-right: 10rem;
+  margin-left: 1rem;
+}
+
+input.form-control{
+  width: 800px;
+}
+
+button.btn{
+  border-color: black;
+}
+
+/* hero */
+.hero-container{
+  margin: auto;
+  margin-top: 1rem;
+  width: 800px;
+  height: 350px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.d-block{
+  max-width: 800px;
+  max-height: 350px;
+}
+
+
+/* rekomendasi */
+.rekomendasi-container{
+  background-color: black;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 1000px;
+  height: 270px;
+}
+
+div.card{
+  position: absolute;
+  margin: 10px;
+  width: 200px;
+  height: 250px;
+}
+
+
+/* main */
+div.main-container{
+  margin-top: 1rem;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+}
+
+.main-container .row .card{
+  margin: 10px;
+}
+
